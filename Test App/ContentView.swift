@@ -97,6 +97,7 @@ func printData() {
     print("printing")
     
     // App Sandbox Directory
+    /// This part is the exact same code to fetch the storage directory as above, I didn't feel like refactoring 
     if let appSupportDirectory = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first {
         
         do {
